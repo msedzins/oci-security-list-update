@@ -4,7 +4,7 @@ One of the common techniques, that are used to decrease atack surface for comput
 
 I use it on daily basis for linux boxes that I access via SSH. It's easy to configure but can become a tedious task if a public IP, used to access our instances, changes frequently. 
 
-To automate the task I prepared simple bash script. It creates a security list with one ingress rule dedicated for SSH traffic.
+To automate the task I prepared a simple bash script. It creates a security list with one ingress rule dedicated for SSH traffic.
 Traffic is allowed only from current public IP of the client used to run the script. 
 Later on, when public IP changes, we can run the script again and the security list configuration is updated with a new public IP.
 
