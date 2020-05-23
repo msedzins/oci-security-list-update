@@ -1,0 +1,14 @@
+[
+  {
+    "isStateless": false,
+    "protocol": "6",
+    "source": "0.0.0.0/0",
+    "sourceType": "CIDR_BLOCK",
+    "tcpOptions": {
+      "destinationPortRange": {
+        "max": 22,
+        "min": 22
+      }
+    }
+  }
+]
